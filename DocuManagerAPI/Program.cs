@@ -1,4 +1,6 @@
 using DocuManagerAPI.Models;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Drive.v3;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -32,6 +34,9 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddSingleton<GoogleDriveService>();
+
+
 
 var app = builder.Build();
 
