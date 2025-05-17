@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DocuManagerAPI\DocuManagerAPI.csproj" />
+    <ProjectReference Include="..\DocuManagerAPI\DocManagerAPI.csproj" />
   </ItemGroup>
 
   <ItemGroup>

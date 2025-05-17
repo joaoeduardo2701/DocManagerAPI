@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuManagerAPI", "DocuManagerAPI\DocuManagerAPI.csproj", "{E2A7EC89-8F4F-4D47-A98E-623B2A473263}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocManagerAPI", "DocuManagerAPI\DocManagerAPI.csproj", "{E2A7EC89-8F4F-4D47-A98E-623B2A473263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocuManagerAPI.Tests", "DocuManagerAPI.Tests\DocuManagerAPI.Tests.csproj", "{1AC4618F-AA51-456A-9B7D-35CB5F620490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocManagerAPI.Tests", "DocuManagerAPI.Tests\DocManagerAPI.Tests.csproj", "{1AC4618F-AA51-456A-9B7D-35CB5F620490}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
